@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 105px;
+    padding: 0px 150px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap: 246px;
+}
+.wrapper ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.wrapper ul li a{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+.small_btns{
+    display: flex;
+    align-items: center;
+    gap: 58px;
+}
+.btns_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.section{
+    background-image: url(./img/bc\ 1.png);
+}
+.text_wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 100px;
+    gap: 40px;
+}
+.heading{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 123%;
+    letter-spacing: 2%;
+    color: rgba(255, 255, 255, 1);
+    width: 679px;
+}
+.info{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 1%;
+    color: white;
+    width: 645px;
+}
+.text_wrapper button{
+    width: 180px;
+    height: 52px;
+    gap: 10px;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-right: 80px;
+    padding-bottom: 16px;
+    padding-left: 80px;
+    background-color: rgba(245, 117, 32, 1);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 123%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+.section_2{
+    padding: 60px 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 170px;
+    background-color: gray;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.container_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 462px;
+    border-radius: 30px;
+    background-color: rgba(16, 16, 16, 1);
+    color: rgba(255, 255, 255, 1);
+    transition: 0.3s;
+}
+.cards:hover{
+    background-color: rgba(245, 117, 32, 1);
+    color: rgba(16, 16, 16, 1);
+}
+.cards img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.section_2 h1{
+    width: 384px;
+    height: 56px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: center;
+}
+.date{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    margin:24px 0px 50px 27px;
+}
+.bikes{
+    width: 315px;
+    height: 87px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 1%;
+    margin-left: 27px;
+}
+.entering_info{
+    background-color: rgba(245, 117, 32, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.entering_info img{
+    width: 900px;
+}
+.entering_info h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 123%;
+    letter-spacing: 5%;
+    color: rgba(255, 255, 255, 1);
+    width: 620px;
+    height: 98px;
+}
+.input_wrapper_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 92px;
+    transform: translate(150px, 0px);
+    padding: 50px 0px;
+}
+.list_wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+.input_wrapper1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+.input_wrapper1 input{
+    width: 302px;
+    height: 46px;
+    border-radius: 10px;
+    padding:10px 16px;
+    gap: 10px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    outline: none;
+    color: rgba(179, 179, 179, 1);
+}
+.massage{
+    width: 618px;
+    height: 154px;
+    border-radius: 10px;
+    padding:10px 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: rgba(179, 179, 179, 1);
+    border: none;
+    outline: none;
+    resize: none;
+}
+.btn_question{
+    width: 620px;
+    height: 52px;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-right: 80px;
+    padding-bottom: 16px;
+    padding-left: 80px;
+    gap: 10px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 123%;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(245, 117, 32, 1);
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.bc{
+    width: 100vw;
+    height: 400px;
+}
+.footer_wrapper{
+    width: 100vw;
+    height: 370px;
+    background-color: rgba(16, 16, 16, 1);
+    padding: 91px 318px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 355px;
+}
+.footer_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 91px;
+}
+.footer_info{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-direction: column;
+}
+.footer_heading{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 1%;
+    color: rgba(255, 255, 255, 1);
+    width: 163px;
+}
+.info_wrapper{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
